@@ -24,7 +24,7 @@ const SocialLinks = () => {
           <FaGithub size={30}/>
         </>
       ),
-      href: "https://github.com/in/ibtisam-hemmo",
+      href: "https://github.com/ibtisam-hemmo",
     },
     {
       id: 3,
