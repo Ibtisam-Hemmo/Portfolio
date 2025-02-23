@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white "
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white pt-10 "
     >
       <div className="max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full ">
         <div className="mt-10">
@@ -14,17 +14,19 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10">
-        As a full stack developer with experience in the PERN stack, I have a strong foundation in PostgreSQL, Express, React, and Node.js. I am able to design and implement a database schema, perform CRUD operations, and write SQL queries using PostgreSQL.
-        </p>
-
-        <br />
-
-        <p className="text-xl">
-        I am also proficient in creating and configuring a web server using the Express framework, and in building user interfaces using React, including creating and managing components, handling state and props, and using React hooks. With my experience in Node.js, I am able to build server-side applications, work with the file system, and handle asynchronous code using JavaScript.
+          As a skilled Front-End Engineer with solid experience building
+          responsive and user-friendly web applications, I enjoy turning design
+          ideas into interactive digital experiences and collaborating with
+          teams to bring projects to life. I am eager to expand my skills in
+          front-end technologies and contribute to creating high-quality
+          products.
         </p>
         <br />
         <p className="text-xl sm:mb-30">
-        In addition to my technical skills, I have strong problem-solving and debugging abilities, and am able to write clean, efficient, and well-documented code.
+          In addition to my technical skills, I have strong problem-solving and
+          debugging abilities, and am able to write clean, efficient, and
+          well-documented code. I am looking for a role where I can grow professionally
+          while helping to build impactful web solutions.
         </p>
       </div>
     </div>
