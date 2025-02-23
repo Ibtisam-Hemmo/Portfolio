@@ -1,14 +1,15 @@
 import React from "react";
-import IbtisamImage from "../assets/ibtisama.png";
+import Image from "../assets/ibtisama.png";
 import { Link } from "react-scroll";
+//TODO heigh 70vh for home
 
 const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 "
+      className=" scroll-smooth pt-20 w-full bg-gradient-to-b from-black via-black to-gray-800 "
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-start justify-center pt-5 h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <p className="font-bold text-white capitalize mb-4">
             Hi there! Ibtisam is here
@@ -21,9 +22,9 @@ const Home = () => {
             </span>
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            A passionate and self-driven full stack developer based in
-            Palestine. I always aspire to build and maintain responsive websites
-            using meticulously written code and user-centered design.
+            A passionate and self-driven Front end Engineer based in Palestine.
+            I always aspire to build and maintain responsive websites using
+            meticulously written code and user-centered design.
           </p>
           <div className="flex gap-5">
             <Link to="projects" smooth duration={500}>
@@ -55,7 +56,7 @@ const Home = () => {
         </div>
         <div>
           <img
-            src={IbtisamImage}
+            src={Image}
             alt="hero image"
             className=" hidden md:flex rounded-xl mx-auto w-3/4 md:w-full bg-blend-lighten"
           />
