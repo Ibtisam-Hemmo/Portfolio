@@ -21,14 +21,14 @@ const Projects = () => {
     {
       id: 2,
       src: Coral,
-      code: "https://github.com/Ibtisam-Hemmo/web-topics",
-      demo: "https://pharmacies-mangement-system.onrender.com/",// fix link
+      code: "https://github.com/Ibtisam-Hemmo/CORAL",
+      demo: "https://jsd-0423.github.io/frontend-final-1/",
     },
     {
       id: 3,
       src: webTopics,
-      code: "https://github.com/Ibtisam-Hemmo/web-topics",
-      demo: "https://pharmacies-mangement-system.onrender.com/",// fix link
+      code: "https://github.com/Ibtisam-Hemmo/Web-Topics",
+      demo: "https://jsd-0423.github.io/Ibtisam-Hemmo-Project1/",
     },
     {
       id: 4,
@@ -90,14 +90,18 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 px-12 sm:px-0">
           {projects.map(({ id, src, code, demo }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg overflow-hidden">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg overflow-hidden"
+            >
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="rounded-md duration-200 hover:scale-105 h-32 object-cover  w-full"
               />
+
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-3 py-2 m-2 duration-200 hover:scale-105">
                   <a href={demo}>Demo</a>
